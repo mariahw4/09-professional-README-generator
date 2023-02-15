@@ -42,7 +42,8 @@ function generateMarkdown(data) {
   ${data.questions} 
   
   If you have further questions please don't hesitate to reach out at either:
-* GitHub Username: ${data.userName} ${data.githubLink}
+* GitHub Username: ${data.userName} 
+* GitHub Link: ${data.githubLink}
 * Contact Email: ${data.userEmail}
 
 `;
