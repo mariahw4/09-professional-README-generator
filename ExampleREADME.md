@@ -1,9 +1,9 @@
- # Project Title: readme 
-  [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+ # Project Title: Readme generator 
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description: 
 
-  description 
+  To generate a readme  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,16 +15,18 @@
 
   ## Installation: 
 
-  steps
+  there are steps required
 
   ## Usage: 
 
-  instructions 
+  use and instructions 
 
   ## License: 
 
-  GNU LGPLv3 
+  GNU GPLv3 
+
   2007 Free Software Foundation, Inc
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -40,17 +42,17 @@
 
   ## Contributing: 
 
-  guidelines
+  guidelines and rules
 
   ## Tests: 
 
-  tests 
+  unit tests using jest 
   
   ## Questions: 
 
-  no 
+  questions 
   
   If you have further questions please don't hesitate to reach out at either:
-* GitHub Username: mw4
-* Contact Email: email
+* GitHub Username: mariahw4
+* Contact Email: email@gmail.com
 

@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // Internal modules
-// const api = require('./utils/api.js');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // get license link and badge
@@ -29,6 +28,7 @@ function getLicense(value) {
 function licenseSelection(value){
   if (value === "GNU AGPLv3") {
     return `2007 Free Software Foundation, Inc
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
     published by the Free Software Foundation, either version 3 of the
@@ -43,6 +43,7 @@ function licenseSelection(value){
     along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
 } else if (value === "GNU GPLv3") {
     return `2007 Free Software Foundation, Inc
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -57,6 +58,7 @@ function licenseSelection(value){
     along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
 } else if (value === "GNU LGPLv3") {
     return `2007 Free Software Foundation, Inc
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -124,11 +126,23 @@ const questions = [
       type: 'input',
       name: 'title',
       message: 'What is the title of the project?',
+      validate: function (answer) {
+        if (answer.length < 1) {
+            return console.log("A valid project title is required.");
+        }
+        return true;
+      }
     },
     {
       type: 'input',
       name: 'description',
       message: 'Enter a brief description of the project.',
+      validate: function (answer) {
+        if (answer.length < 1) {
+            return console.log("A valid project description is required.");
+        }
+        return true;
+      }
     },
     {
         type: 'input',
