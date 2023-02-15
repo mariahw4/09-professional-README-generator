@@ -14,9 +14,12 @@ node index.js
 ## Usage
 Screenshot and Video walk through
 
+[Walkthough Video](https://drive.google.com/file/d/1oxVNzjxFWhcJ-feafRDttBPyptEXBQD3/view)
+
+Screenshot:
 ![Screenshot](./assets/exampleREADME.png)
 
-[Walkthough Video](https://drive.google.com/file/d/1oxVNzjxFWhcJ-feafRDttBPyptEXBQD3/view)
+
 
 ## User Story (given)
 
