@@ -20,12 +20,12 @@ function generateMarkdown(data) {
   ${data.description} 
 
   ## Table of Contents
-  * [Installation](#-Installation)
-  * [Usage](#-Usage)
-  * [License](#-License)
-  * [Contributing](#-Contributing)
-  * [Tests](#-Tests)
-  * [Questions](#-Contact-Information)
+  * [Installation](##-Installation)
+  * [Usage](##-Usage)
+  * [License](##-License)
+  * [Contributing](##-Contributing)
+  * [Tests](##-Tests)
+  * [Questions](##-Questions)
 
   ## Installation: 
 
@@ -38,6 +38,7 @@ function generateMarkdown(data) {
   ## License: 
 
   ${data.license} 
+  ${data.licenseSelection}
 
   ## Contributing: 
 
@@ -50,8 +51,8 @@ function generateMarkdown(data) {
   ## Questions: 
 
   ${data.questions} 
-
-  ## Contact Information 
+  
+  If you have further questions please don't hesitate to reach out at either:
 * GitHub Username: ${data.userName}
 * Contact Email: ${data.userEmail}
 
