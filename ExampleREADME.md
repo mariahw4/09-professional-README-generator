@@ -5,7 +5,7 @@
 
   Contains a short description explaining the what, why, and how of the project. 
   
-    The project is to have an easy way to make a professional README using command line inputs 
+    The project is to have an easy way to make a professional README using command line inputs  
 
   -The project motivation is: The motivation is to learn how to use command line input to generate a markdown file
   
@@ -28,7 +28,7 @@
   ## Usage: 
   Instructions and examples for use are included here. 
   
-    To use this project simply answer the command line prompts and watch the README generate 
+    To use this project simply answer the command line prompts and watch the README generate  
 
   ## License: 
 
@@ -47,13 +47,13 @@
     In order to contribute simply go to the linked github profile and fork the repo
 
   ## Tests: 
-    There were no tests for this project 
+    There were no tests for this project  
   
   ## Questions: 
-    I would like to continue to expand and include more questions 
+    I would like to continue to expand and include more questions  
   
   If you have further questions please don't hesitate to reach out to me:
-* GitHub Username: mariahw4 
-* Link to GitHub profile: https://github.com/mariahw4
+* GitHub Username: Mariahw4 
+* Link to GitHub profile: https://github.com/Mariahw4
 * Contact Email: <a href="mailto:wearmariahk@gmail.com">wearmariahk@gmail.com</a>
 
