@@ -1,13 +1,15 @@
- # README generator 
+ # Professional README Generator 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description: 
 
   Contains a short description explaining the what, why, and how of the project. 
-    The project is to make a professional readme 
+  
+    The project is to have an easy way to make a professional README using command line inputs 
 
-  -The project motivation is: to have a easy way to make a professional readme in the future
-  -Problems solved and future development ideas are: It solves not having a good readme, and I learned about formatting
+  -The project motivation is: The motivation is to learn how to use command line input to generate a markdown file
+  
+  -Problems solved and future development ideas are: I learned how to format a markdown file using javaScript
 
 
   ## Table of Contents:
@@ -21,12 +23,12 @@
   ## Installation: 
     Instructions for installation of the project are as follows. 
     
-    The inquirer package is required, must be installed with npm
+    The inquirer package is required, must be installed with npm i
 
   ## Usage: 
   Instructions and examples for use are included here. 
   
-    Simply answer the questions in command prompt to fill required sections 
+    To use this project simply answer the command line prompts and watch the README generate 
 
   ## License: 
 
@@ -42,13 +44,13 @@
   Specifications for contributions to the project are contained within this section.
   For additional information on contribution policy please contact me using either method in Questions section.
 
-    If you want to contribute you can go to the linked github and fork the repo
+    In order to contribute simply go to the linked github profile and fork the repo
 
   ## Tests: 
-    There were no tests for this specific project 
+    There were no tests for this project 
   
   ## Questions: 
-    I would like to continue to refine the project for future use, making it simple and more readable! 
+    I would like to continue to expand and include more questions 
   
   If you have further questions please don't hesitate to reach out to me:
 * GitHub Username: mariahw4 

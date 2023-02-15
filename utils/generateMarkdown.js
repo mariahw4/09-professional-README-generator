@@ -6,9 +6,11 @@ function generateMarkdown(data) {
   ## Description: 
 
   Contains a short description explaining the what, why, and how of the project. 
+  
     ${data.description} 
 
   -The project motivation is: ${data.motivation}
+  
   -Problems solved and future development ideas are: ${data.lessonLearned}
 
 
