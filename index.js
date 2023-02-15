@@ -119,6 +119,10 @@ function licenseSelection(value){
     return `This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.`;
 }
 }
+// include github link
+function githubLink(value) {
+   `https://github.com/${value}`
+}
 
 // User Input questions
 const questions = [
@@ -206,6 +210,7 @@ function init() {
       console.log(JSON.stringify(data, null, " "));
       data.getLicense = getLicense(data.license);
       data.licenseSelection = licenseSelection(data.license);
+      data.githubLink = githubLink(data.userName)
       writeToFile("ExampleREADME.md", data);
   });
 }
