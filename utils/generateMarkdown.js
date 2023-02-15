@@ -41,10 +41,10 @@ function generateMarkdown(data) {
 
   ${data.questions} 
   
-  If you have further questions please don't hesitate to reach out at either:
+  If you have further questions please don't hesitate to reach out to me:
 * GitHub Username: ${data.userName} 
-* GitHub Link: ${data.githubLink}
-* Contact Email: ${data.userEmail}
+* Link to GitHub profile: ${data.githubLink}
+* Contact Email: ${data.emailTo}
 
 `;
 }

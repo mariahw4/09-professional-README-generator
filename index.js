@@ -121,8 +121,11 @@ function licenseSelection(value){
 }
 
 function githubLink(value) {
-    return `[![GitHub Link]](https://github.com/${value}`
-  
+    return `https://github.com/${value}`
+}
+
+function emailTo(value) {
+  return `<a href="mailto:${value}">${value}</a>`
 }
 // User Input questions
 const questions = [
@@ -191,6 +194,12 @@ const questions = [
     type: "input",
     name: "userEmail",
     message: "What is your email address that contributors may use for contact?",
+    validate: function (answer) {
+      if (answer.length < 1) {
+          return console.log("A valid email is required.");
+      }
+      return true;
+    }
   }
   ]
 
@@ -210,7 +219,8 @@ function init() {
       console.log(JSON.stringify(data, null, " "));
       data.getLicense = getLicense(data.license);
       data.licenseSelection = licenseSelection(data.license);
-      data.githubLink = githubLink(data.userName)
+      data.githubLink = githubLink(data.userName);
+      data.emailTo = emailTo(data.userEmail);
       writeToFile("ExampleREADME.md", data);
   });
 }

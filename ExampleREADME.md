@@ -1,9 +1,9 @@
  # Project Title: title 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
   ## Description: 
 
-  des 
+  desc 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,36 +15,45 @@
 
   ## Installation: 
 
-  step
+  yes
 
   ## Usage: 
 
-  jdkf 
+  yes 
 
   ## License: 
 
-  MIT License 
+  GNU AGPLv3 
 
-  Copyright Unknown
+  2007 Free Software Foundation, Inc
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
-    
-    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
   ## Contributing: 
 
-  jfdksl
+  yes
 
   ## Tests: 
 
-  jfkdsl 
+  yes 
   
   ## Questions: 
 
-  jfkds 
+  no 
   
-  If you have further questions please don't hesitate to reach out at either:
+  If you have further questions please don't hesitate to reach out to me:
 * GitHub Username: mariahw4 
-* GitHub Link: [![GitHub Link]](https://github.com/mariahw4
-* Contact Email: email
+* Link to GitHub profile: https://github.com/mariahw4
+* Contact Email: <a href="mailto:wearmariahk@gmail.com">wearmariahk@gmail.com</a>
 
