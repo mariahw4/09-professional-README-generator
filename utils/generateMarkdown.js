@@ -1,13 +1,18 @@
 // Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return ` # Project Title: ${data.title} 
+  return ` # ${data.title} 
   ${data.getLicense}
 
   ## Description: 
 
-  ${data.description} 
+  Contains a short description explaining the what, why, and how of the project. 
+    ${data.description} 
 
-  ## Table of Contents
+  -The project motivation is: ${data.motivation}
+  -Problems solved and future development ideas are: ${data.lessonLearned}
+
+
+  ## Table of Contents:
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -16,12 +21,14 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ## Installation: 
-
-  ${data.installation}
+    Instructions for installation of the project are as follows. 
+    
+    ${data.installation}
 
   ## Usage: 
-
-  ${data.usage} 
+  Instructions and examples for use are included here. 
+  
+    ${data.usage} 
 
   ## License: 
 
@@ -30,16 +37,16 @@ function generateMarkdown(data) {
   ${data.licenseSelection}
 
   ## Contributing: 
+  Specifications for contributions to the project are contained within this section.
+  For additional information on contribution policy please contact me using either method in Questions section.
 
-  ${data.contributing}
+    ${data.contributing}
 
   ## Tests: 
-
-  ${data.tests} 
+    ${data.tests} 
   
   ## Questions: 
-
-  ${data.questions} 
+    ${data.questions} 
   
   If you have further questions please don't hesitate to reach out to me:
 * GitHub Username: ${data.userName} 

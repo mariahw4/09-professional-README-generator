@@ -143,13 +143,24 @@ const questions = [
     {
       type: 'input',
       name: 'description',
-      message: 'Enter a brief description of the project.',
+      message: `Enter a brief description of the project.`,
+
       validate: function (answer) {
         if (answer.length < 1) {
             return console.log("A valid project description is required.");
         }
         return true;
       }
+    },
+    {
+      type: 'input',
+      name: 'motivation',
+      message: "What was your motivation for the project?", 
+    },
+    {
+      type: 'input',
+      name: 'lessonLearned',
+      message: "What problem does it solve, and What did you learn?'",
     },
     {
         type: 'input',
@@ -179,7 +190,7 @@ const questions = [
     },
     {
       type: 'input',
-      message: "Do you have any other questions?",
+      message: "Do you have any other questions or ideas for future development of the project?",
       name: 'questions'
     },
   // QUESTIONS section -- github 

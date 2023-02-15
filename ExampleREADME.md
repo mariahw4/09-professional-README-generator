@@ -1,11 +1,16 @@
- # Project Title: title 
-  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+ # README generator 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description: 
 
-  desc 
+  Contains a short description explaining the what, why, and how of the project. 
+    The project is to make a professional readme 
 
-  ## Table of Contents
+  -The project motivation is: to have a easy way to make a professional readme in the future
+  -Problems solved and future development ideas are: It solves not having a good readme, and I learned about formatting
+
+
+  ## Table of Contents:
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -14,43 +19,36 @@
   * [Questions](#questions)
 
   ## Installation: 
-
-  yes
+    Instructions for installation of the project are as follows. 
+    
+    The inquirer package is required, must be installed with npm
 
   ## Usage: 
-
-  yes 
+  Instructions and examples for use are included here. 
+  
+    Simply answer the questions in command prompt to fill required sections 
 
   ## License: 
 
-  GNU AGPLv3 
+  MIT License 
 
-  2007 Free Software Foundation, Inc
+  Copyright Unknown
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as
-    published by the Free Software Foundation, either version 3 of the
-    License, or (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Affero General Public License for more details.
-
-    You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
+    
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
   ## Contributing: 
+  Specifications for contributions to the project are contained within this section.
+  For additional information on contribution policy please contact me using either method in Questions section.
 
-  yes
+    If you want to contribute you can go to the linked github and fork the repo
 
   ## Tests: 
-
-  yes 
+    There were no tests for this specific project 
   
   ## Questions: 
-
-  no 
+    I would like to continue to refine the project for future use, making it simple and more readable! 
   
   If you have further questions please don't hesitate to reach out to me:
 * GitHub Username: mariahw4 
